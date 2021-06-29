@@ -20,6 +20,8 @@ function setup() {
 	
   playerBase = new PlayerBase(300,random(450,height-300),180,150);
   player = new Player(285,playerBase.body.position.y - 153,50,180);
+  computerBase = new ComputerBase(1500,random(450,height-300),180,150);
+  computerPlayer = new ComputerPlayer(1515,computerBase.body.position.y - 153,50,180);
 
 
  }
